@@ -4,6 +4,10 @@
 
     margin: auto;
 }
+.articleHeader{
+    font-size: 2rem;
+    font-weight: 600;
+}
 .topBar{
     display: flex;
 }
@@ -20,6 +24,9 @@
     flex: 70%;
     margin: auto;
 
+}
+.postUserName{
+    font-weight: 500;
 }
 .topIcon {
     font-size: 2rem;
@@ -161,6 +168,9 @@ img.cardImg1{
 }
 
 @media only screen and (min-width :100px) and (max-width :300px){
+    .Article{
+        font-size: 200%;
+    }
     .contaiNer{
         display: none;
         }
@@ -185,6 +195,10 @@ img.cardImg1{
 
 
 @media only screen and (min-width :300px) and (max-width :500px){
+    
+    .Article{
+        font-size: 170%;
+    }
     .contaiNer{
         display: none;
         }
@@ -208,6 +222,9 @@ img.cardImg1{
 
 
 @media only screen and (min-width :500px) and (max-width :750px){
+    .Article{
+        font-size: 150%;
+    }
     .contaiNer{
         display: none;
         }

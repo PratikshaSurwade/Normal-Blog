@@ -25,17 +25,6 @@
     text-align: center; 
     margin-top: 1.5rem;
 }
-.headstyle1{
-    font-size: 1.2rem;
-    writing-mode: vertical-rl;
-    transform: scale(-1);
-    font-weight: lighter; 
-    padding: 0px;
-}
-.headstyle2{
-    font-size: 3rem;
-    font-weight: bold;
-}
 
 .Navbarstyle{
     display: flex;
@@ -82,7 +71,7 @@ a.Linkitems:hover{
 } */
 
 .navbarr{
-    height: 4rem;
+    height: 6rem;
     background-color: #e0e0e096;
     display: flex;
     align-items: center;
@@ -101,7 +90,7 @@ a.Linkitems:hover{
     width: 100%;
     position: fixed;
     z-index: 1;
-    top: 3rem;
+    top: 6rem;
     left: 0;
     /* background-color: rgb(0,0,0); */
     background-color: rgb(247 247 247 / 87%);
@@ -119,8 +108,8 @@ a.navbarMenuList{
     text-decoration: none;
     color: black;
     margin: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
 }
 a.navbarMenuList:hover{
     text-decoration: underline #fab534 3px;

@@ -83,7 +83,7 @@ function Articlefun() {
                         <p><i className="articleImg3 fas fa-share-alt"></i><span className="articlePart2">Share this Profile</span></p>
                     </div>
                     <div className="Article">
-                        <h2>{post.title}</h2>
+                        <div className='articleHeader'>{post.title}</div>
                         <div className="topRight1">
                             <i className="topIcon fab fa-facebook-square"></i>
                             <i className="topIcon fab fa-twitter"></i>
@@ -97,7 +97,7 @@ function Articlefun() {
 
                             </div>
                             <div className="topCenter">
-                                <h6>{post.username}</h6>
+                                <div className='postUserName'>{post.username}</div>
                                 <p className="profileInfo">{post.date}</p>
 
                             </div>
@@ -127,7 +127,7 @@ function Articlefun() {
                             </div>
                             <div className="topCenter">
                                 <p className="profileInfo"> WRITTEN BY</p>
-                                <h6>{post.username}</h6>
+                                <div className='postUsername'>{post.username}</div>
                                 <p className="profileInfo">{post.date} - {post.time}</p>
 
                             </div>

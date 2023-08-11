@@ -29,8 +29,8 @@ function Navbar() {
 				<div className="headingTwo">
 					<div className="navbarr">
 						<h2 className="logoHeading" title="Home">
-							<span style={{ writingMode: "vertical-rl", transform: "scale(-0.8)" ,fontSize:"1.5rem"}}>The</span>
-							<span style={{ fontSize: "2.7rem" }}> Siren</span>
+							<span style={{ writingMode: "vertical-rl", transform: "scale(-1)" ,fontSize:"1.5rem"}}>The</span>
+							<span style={{ fontSize: "3.2rem" }}> Siren</span>
 						</h2>
 
 						{console.log(toogle)}

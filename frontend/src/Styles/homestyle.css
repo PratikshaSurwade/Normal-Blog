@@ -62,19 +62,6 @@ a.cardLink:hover{
     display: none;
 }
 
-.main-heading{
-    color: red;
-    background-color: aqua;
-}
-.main-heading-2{
-    color: aqua;
-    background-color: red;
-}
-.parastyle{
-    font-size: 2rem;
-    color: green;
-}
-
 p.cardInfo{
     color: #d3d3d3;
 }
